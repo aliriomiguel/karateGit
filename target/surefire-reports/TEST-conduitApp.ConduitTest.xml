@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.ConduitTest" time="3.489" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/alirioaranguren/Projects/KarateGit/Udemy/myproject/target/test-classes:/Users/alirioaranguren/Projects/KarateGit/Udemy/myproject/target/classes:/Users/alirioaranguren/.m2/repository/com/intuit/karate/karate-junit5/1.4.1/karate-junit5-1.4.1.jar:/Users/alirioaranguren/.m2/repository/com/intuit/karate/karate-core/1.4.1/karate-core-1.4.1.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/js/js-scriptengine/22.3.3/js-scriptengine-22.3.3.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/sdk/graal-sdk/22.3.3/graal-sdk-22.3.3.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/js/js/22.3.3/js-22.3.3.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/regex/regex/22.3.3/regex-22.3.3.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/truffle/truffle-api/22.3.3/truffle-api-22.3.3.jar:/Users/alirioaranguren/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/Users/alirioaranguren/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/Users/alirioaranguren/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/alirioaranguren/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/alirioaranguren/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/alirioaranguren/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/alirioaranguren/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/alirioaranguren/.m2/repository/com/linecorp/armeria/armeria/1.25.2/armeria-1.25.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/Users/alirioaranguren/.m2/repository/io/micrometer/micrometer-core/1.11.3/micrometer-core-1.11.3.jar:/Users/alirioaranguren/.m2/repository/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar:/Users/alirioaranguren/.m2/repository/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar:/Users/alirioaranguren/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/alirioaranguren/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-haproxy/4.1.96.Final/netty-codec-haproxy-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-http2/4.1.96.Final/netty-codec-http2-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver-dns/4.1.96.Final/netty-resolver-dns-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-dns/4.1.96.Final/netty-codec-dns-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/alirioaranguren/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-handler-proxy/4.1.96.Final/netty-handler-proxy-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-socks/4.1.96.Final/netty-codec-socks-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.96.Final/netty-resolver-dns-classes-macos-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-classes/2.0.61.Final/netty-tcnative-classes-2.0.61.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/Users/alirioaranguren/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.12.0/brotli4j-1.12.0.jar:/Users/alirioaranguren/.m2/repository/com/aayushatharva/brotli4j/service/1.12.0/service-1.12.0.jar:/Users/alirioaranguren/.m2/repository/com/aayushatharva/brotli4j/native-osx-aarch64/1.12.0/native-osx-aarch64-1.12.0.jar:/Users/alirioaranguren/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/alirioaranguren/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/alirioaranguren/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/alirioaranguren/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/alirioaranguren/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/alirioaranguren/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.9/jcl-over-slf4j-2.0.9.jar:/Users/alirioaranguren/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/Users/alirioaranguren/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/alirioaranguren/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/alirioaranguren/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/alirioaranguren/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/alirioaranguren/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/alirioaranguren/.m2/repository/de/siegmar/fastcsv/2.2.1/fastcsv-2.2.1.jar:/Users/alirioaranguren/.m2/repository/info/picocli/picocli/4.7.1/picocli-4.7.1.jar:/Users/alirioaranguren/.m2/repository/io/github/classgraph/classgraph/4.8.160/classgraph-4.8.160.jar:/Users/alirioaranguren/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/Users/alirioaranguren/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/alirioaranguren/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/alirioaranguren/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alirioaranguren/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/alirioaranguren/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/alirioaranguren/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/alirioaranguren/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/alirioaranguren/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/alirioaranguren/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/alirioaranguren/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/alirioaranguren/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/alirioaranguren/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="karate.env" value="dev"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/alirioaranguren/Projects/KarateGit/Udemy/myproject/target/surefire/surefirebooter-20240119153640253_3.jar /Users/alirioaranguren/Projects/KarateGit/Udemy/myproject/target/surefire 2024-01-19T15-36-40_200-jvmRun1 surefire-20240119153640253_1tmp surefire_0-20240119153640253_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/alirioaranguren/Projects/KarateGit/Udemy/myproject/target/test-classes:/Users/alirioaranguren/Projects/KarateGit/Udemy/myproject/target/classes:/Users/alirioaranguren/.m2/repository/com/intuit/karate/karate-junit5/1.4.1/karate-junit5-1.4.1.jar:/Users/alirioaranguren/.m2/repository/com/intuit/karate/karate-core/1.4.1/karate-core-1.4.1.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/js/js-scriptengine/22.3.3/js-scriptengine-22.3.3.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/sdk/graal-sdk/22.3.3/graal-sdk-22.3.3.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/js/js/22.3.3/js-22.3.3.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/regex/regex/22.3.3/regex-22.3.3.jar:/Users/alirioaranguren/.m2/repository/org/graalvm/truffle/truffle-api/22.3.3/truffle-api-22.3.3.jar:/Users/alirioaranguren/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/Users/alirioaranguren/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/Users/alirioaranguren/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/alirioaranguren/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/alirioaranguren/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/alirioaranguren/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/alirioaranguren/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/alirioaranguren/.m2/repository/com/linecorp/armeria/armeria/1.25.2/armeria-1.25.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar:/Users/alirioaranguren/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/Users/alirioaranguren/.m2/repository/io/micrometer/micrometer-core/1.11.3/micrometer-core-1.11.3.jar:/Users/alirioaranguren/.m2/repository/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar:/Users/alirioaranguren/.m2/repository/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar:/Users/alirioaranguren/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/alirioaranguren/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-haproxy/4.1.96.Final/netty-codec-haproxy-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-http2/4.1.96.Final/netty-codec-http2-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver-dns/4.1.96.Final/netty-resolver-dns-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-dns/4.1.96.Final/netty-codec-dns-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/alirioaranguren/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-handler-proxy/4.1.96.Final/netty-handler-proxy-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-codec-socks/4.1.96.Final/netty-codec-socks-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.96.Final/netty-resolver-dns-classes-macos-4.1.96.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-classes/2.0.61.Final/netty-tcnative-classes-2.0.61.Final.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/Users/alirioaranguren/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/Users/alirioaranguren/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.12.0/brotli4j-1.12.0.jar:/Users/alirioaranguren/.m2/repository/com/aayushatharva/brotli4j/service/1.12.0/service-1.12.0.jar:/Users/alirioaranguren/.m2/repository/com/aayushatharva/brotli4j/native-osx-aarch64/1.12.0/native-osx-aarch64-1.12.0.jar:/Users/alirioaranguren/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/alirioaranguren/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/alirioaranguren/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/alirioaranguren/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/alirioaranguren/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/alirioaranguren/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.9/jcl-over-slf4j-2.0.9.jar:/Users/alirioaranguren/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/Users/alirioaranguren/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/alirioaranguren/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/alirioaranguren/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/alirioaranguren/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/alirioaranguren/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/alirioaranguren/.m2/repository/de/siegmar/fastcsv/2.2.1/fastcsv-2.2.1.jar:/Users/alirioaranguren/.m2/repository/info/picocli/picocli/4.7.1/picocli-4.7.1.jar:/Users/alirioaranguren/.m2/repository/io/github/classgraph/classgraph/4.8.160/classgraph-4.8.160.jar:/Users/alirioaranguren/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/Users/alirioaranguren/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/alirioaranguren/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/alirioaranguren/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alirioaranguren/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/alirioaranguren/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/alirioaranguren/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/alirioaranguren/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/alirioaranguren/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/alirioaranguren/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/alirioaranguren/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/alirioaranguren/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/alirioaranguren/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/alirioaranguren"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/alirioaranguren/Projects/KarateGit/Udemy/myproject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="karate.options" value="--tags @debug"/>
+    <property name="surefire.real.class.path" value="/Users/alirioaranguren/Projects/KarateGit/Udemy/myproject/target/surefire/surefirebooter-20240119153640253_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.22+9-LTS-219"/>
+    <property name="user.name" value="alirioaranguren"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/alirioaranguren/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/pl/9484kcmn43g23hcwyy8jd0zr0000gn/T/"/>
+    <property name="java.version" value="11.0.22"/>
+    <property name="user.dir" value="/Users/alirioaranguren/Projects/KarateGit/Udemy/myproject"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/alirioaranguren/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.22+9-LTS-219"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="[1:9] New user Sign Up" classname="conduitApp/feature/SignUp" time="2.407">
+    <system-out><![CDATA[15:36:41.005 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+15:36:41.052 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': dev
+15:36:41.215 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:36:41.731 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+15:36:41.734 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+15:36:41.894 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit.productionready.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 67
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"karatetest2024@test.com","password":"Karate123"}}
+
+15:36:42.417 [main] DEBUG com.intuit.karate - request:
+2 > POST https://conduit.productionready.io/api/users/login
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 67
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+2 > Accept-Encoding: gzip,deflate
+{"user":{"email":"karatetest2024@test.com","password":"Karate123"}}
+
+15:36:42.859 [main] DEBUG com.intuit.karate - response time in milliseconds: 435
+2 < 200
+2 < Date: Fri, 19 Jan 2024 14:36:42 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1705675002&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=S1p%2B83RofvHIgPucI%2Fyzozo3W3Kc73FELY7A2bmaP6o%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1705675002&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=S1p%2B83RofvHIgPucI%2Fyzozo3W3Kc73FELY7A2bmaP6o%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Etag: W/"133-Qb8YqRo+pC+FMwDiJlP7TaZQuI4"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: DYNAMIC
+2 < Server: cloudflare
+2 < CF-RAY: 847fcfbefa384210-EWR
+2 < alt-svc: h3=":443"; ma=86400
+{"user":{"email":"karatetest2024@test.com","username":"KarateTest2024","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0NzE1fSwiaWF0IjoxNzA1Njc1MDAyLCJleHAiOjE3MTA4NTkwMDJ9.y6HD6vUHgtQwfgwZydRSAiIEuzjnUUFcaf7jMOCTmiw"}}
+
+15:36:42.869 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+15:36:42.987 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit.productionready.io/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0NzE1fSwiaWF0IjoxNzA1Njc1MDAyLCJleHAiOjE3MTA4NTkwMDJ9.y6HD6vUHgtQwfgwZydRSAiIEuzjnUUFcaf7jMOCTmiw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"willy22@test.com","password":"Karate123","username":"alfonso.gorczany"}}
+
+15:36:43.283 [main] DEBUG com.intuit.karate - request:
+2 > POST https://conduit.productionready.io/api/users
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0NzE1fSwiaWF0IjoxNzA1Njc1MDAyLCJleHAiOjE3MTA4NTkwMDJ9.y6HD6vUHgtQwfgwZydRSAiIEuzjnUUFcaf7jMOCTmiw
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 90
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+2 > Accept-Encoding: gzip,deflate
+{"user":{"email":"willy22@test.com","password":"Karate123","username":"alfonso.gorczany"}}
+
+15:36:43.662 [main] DEBUG com.intuit.karate - response time in milliseconds: 378
+2 < 201
+2 < Date: Fri, 19 Jan 2024 14:36:43 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 312
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1705675003&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MXgnj9PoII5a8Zk7ORUPleeg3tckSVCF4jdZUqBS0Sw%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1705675003&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MXgnj9PoII5a8Zk7ORUPleeg3tckSVCF4jdZUqBS0Sw%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Etag: W/"138-8RO4Pjny65DeNFWJgH5ZkvhxUik"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: DYNAMIC
+2 < Server: cloudflare
+2 < CF-RAY: 847fcfc2f89b2fbb-MAD
+2 < alt-svc: h3=":443"; ma=86400
+{"user":{"id":4827,"email":"willy22@test.com","username":"alfonso.gorczany","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0ODI3fSwiaWF0IjoxNzA1Njc1MDAzLCJleHAiOjE3MTA4NTkwMDN9.koHkB92-DhSVdBBJjmjYzKsUB9mX3n-rTkRlOVLCSUE"}}
+
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/SignUp.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.8039
+---------------------------------------------------------
+
+]]></system-out>
+  </testcase>
+</testsuite>
